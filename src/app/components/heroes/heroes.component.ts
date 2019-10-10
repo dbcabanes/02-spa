@@ -20,7 +20,7 @@ export class HeroesComponent implements OnInit {
     private _heroesService: HeroesService,
 
     // Funcion de redireccion
-    private _router:Router) { }
+    private _router: Router) { }
 
   ngOnInit() {
     this.heroes = this._heroesService.getHeroes();
