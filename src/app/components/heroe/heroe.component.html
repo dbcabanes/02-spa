@@ -1,4 +1,7 @@
-<h1 class="animated fadeIn"> {{heroe.nombre}} <small> {{heroe.aparicion}}</small></h1>
+<!--En esta primera linea hemos puesto un (pipe '|' ), esto se usa para marcar la variable en 
+    mayusculas o que solo se vea el año de la fecha. (Der documentación)-->
+
+<h1 class="animated fadeIn"> {{heroe.nombre | uppercase}} <small> ({{heroe.aparicion | date:'y'}})</small></h1>
 <hr>
 <div class="row animated fadeIn fast">
     <div class="col-md-4">
